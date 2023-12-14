@@ -3,6 +3,13 @@ package com.jsp.example;
 public class User {
 	private int userId;
 	private String userName;
+	private String email;
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	public int getUserId() {
 		return userId;
 	}
